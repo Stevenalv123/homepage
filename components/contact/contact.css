@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #A5B68D;
+    text-align: center;
+    height: 70px;
+
+}
+
+.navbar {
+    position: relative; 
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 10px 0;
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.maincontent{
+    flex: 1;
+    padding:30px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #8EACCD;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer h5 {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.footer .redes-sociales #facebook img {
+    height: 30px;
+    width: 30px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales #facebook {
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#instagram {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#instagram img {
+    height: 30px;
+    width: 30px;
+}
+
+#whatsapp {
+    text-align: center;
+    cursor: pointer;
+}
+
+#whatsapp img {
+    height: 30px;
+    width: 30px;
+}
